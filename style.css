@@ -4,9 +4,22 @@
 }
 
 .light {
-    color: cornflowerblue;
+    color: cyan;
 }
 
 .sottotitolo {
     display: block;
+}
+
+.mini {
+    font-size: 10px;
+}
+
+thead {
+    background: cornflowerblue;
+    color: white;
+}
+
+tfoot, .colortable {
+    background: darkcyan;
 }
