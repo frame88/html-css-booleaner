@@ -2,7 +2,7 @@ body{
     margin: 10px;
     
 }
-.pattern {
+.pattern {  
     background: blueviolet;
     height: 200px;
     background-image: url("img/pattern.png");  
@@ -10,13 +10,12 @@ body{
     margin-bottom: 30px;
 }
 
-#thebool {
-    color: white;
-    font-size: 40px;
+#logo {
+    width: 300px;
+    height: auto;
     position: absolute;
-    bottom: 0;
-    left: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: 10px;
+    left: 10px;
 }
 
 #title {
@@ -37,6 +36,29 @@ body{
 .mini {
     font-size: 10px;
 }
+
+tr:hover {background-color: orange;}
+</style>
+</head>
+<body>
+
+tr:hover {background-color: orange;}
+</style>
+</head>
+<body>
+
+table {
+    width: 50%;
+}
+
+/*th {
+    width: 33.333%
+}*/
+
+.primariga {
+    width: 50%;
+}
+
 
 thead {
     background: darkcyan;
