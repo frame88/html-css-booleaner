@@ -1,0 +1,12 @@
+.pattern {
+    background-image: url("img/pattern.png");
+    
+}
+
+.light {
+    color: cornflowerblue;
+}
+
+.sottotitolo {
+    display: block;
+}
