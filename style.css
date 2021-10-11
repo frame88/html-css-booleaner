@@ -1,10 +1,25 @@
-.pattern {
-    background-image: url("img/pattern.png");
+body{
+    margin: 10px;
     
+}
+.pattern {
+    background: blueviolet;
+    height: 200px;
+    background-image: url("img/pattern.png");  
+    position: relative;  
+}
+
+#thebool {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .light {
-    color: cyan;
+    color: darkcyan;
 }
 
 .sottotitolo {
@@ -16,10 +31,28 @@
 }
 
 thead {
-    background: cornflowerblue;
+    background: darkcyan;
     color: white;
 }
 
 tfoot, .colortable {
-    background: darkcyan;
+    background: cyan;
+}
+
+h4 {
+    color: gray;
+}
+
+.penultimafoto {
+    color: white;
+    width: 300px;
+    height: 200px;;
+    background-image: url("img/monitor.jpg");
+}
+
+.ultimafoto {
+    color: white;
+    width: 300px;
+    height: 200px;;
+    background-image: url("img/graph.jpg");
 }
